@@ -90,7 +90,7 @@ function getCanteenVoucher(){
             {
               "canteenname": "总部食堂(东区)",
               "vouchertype": "lunch",
-              "createdate": "2022-06-15 11:42:47",
+              "createdate": new Date().Format("yyyy-MM-dd hh:mm:ss"),
               "endtime": "2022-06-15 13:30:00",
               "operateusername": "黄颖超",
               "personno": "20150704088",
