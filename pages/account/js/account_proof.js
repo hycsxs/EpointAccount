@@ -90,10 +90,10 @@ function getCanteenVoucher(){
             {
               "canteenname": "总部食堂(东区)",
               "vouchertype": "lunch",
-              "createdate": "2022-06-14 11:42:47",
-              "endtime": "2022-06-14 13:30:00",
-              "operateusername": "易怀龙",
-              "personno": "20210702278",
+              "createdate": "2022-06-15 11:42:47",
+              "endtime": "2022-06-15 13:30:00",
+              "operateusername": "黄颖超",
+              "personno": "20150704088",
               "dinernum": 1
             }
           ]
@@ -101,7 +101,7 @@ function getCanteenVoucher(){
         "status": {
           "code": "1",
           "text": "请求成功"
-        };
+        }};
 	var data = result.custom.voucherlist;
     var voucherlist = result.custom.voucherlist;
 		var html = '';
@@ -230,6 +230,7 @@ function getCanteenVoucher(){
             Zepto('.swiper-wrapper').find('.swiper-slide').eq(index).find('.em-time-s').text('00');
             return false;
         }
+        h = '01';
         Zepto('.swiper-wrapper').find('.swiper-slide').eq(index).find('.em-time-h').text(h);
         Zepto('.swiper-wrapper').find('.swiper-slide').eq(index).find('.em-time-m').text(m);
         Zepto('.swiper-wrapper').find('.swiper-slide').eq(index).find('.em-time-s').text(s);
