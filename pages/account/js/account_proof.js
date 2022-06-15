@@ -101,7 +101,7 @@ function getCanteenVoucher(){
         "status": {
           "code": "1",
           "text": "请求成功"
-        };
+        }};
 	var data = result.custom.voucherlist;
     var voucherlist = result.custom.voucherlist;
 		var html = '';
