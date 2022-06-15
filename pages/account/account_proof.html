@@ -1,0 +1,110 @@
+<!--
+ * @作者: 钱愉
+ * @创建时间: 2022-04-11 11:05:00
+ * @修改时间: 2022-04-18 16:45:47
+ * @版本: [1.0]
+ * @版权: 国泰新点软件股份有限公司
+ * @描述: 支付凭证
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>支付凭证</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,viewport-fit=cover"
+      name="viewport"
+    />
+    <!-- IOS中禁用将数字识别为电话号码/忽略Android平台中对邮箱地址的识别 -->
+    <meta name="format-detection" content="telephone=no, email=no" />
+
+    <script>
+      document.write(
+        "<script src='../../js/cssboot.js?" + Math.random() + "'></scr" + "ipt>"
+      );
+    </script>
+
+    <script>
+      SrcBoot.output(["./css/account_proof.css"]);
+    </script>
+  </head>
+
+  <body>
+    <div class="mui-content mui-hidden">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+         
+          
+        </div>
+		<div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!--交易明细模板-->
+    <script type="text/template" id="template">
+		<div class="swiper-slide">
+            <div class="em-swiper-item">
+              <div class="em-top-div"></div>
+              <div class="em-top-line"></div>
+              <!-- 虚线 -->
+              <div class="em-line-div">
+                <div class="em-line"></div>
+              </div>
+              <div class="em-content">
+                <div class="em-card">
+                  <div class="em-title">{{vouchername}}&nbsp;<span class="fz19">{{time}}</span></div>
+                  <div class="em-name">{{operateusername}}</div>
+                  <div class="em-id">ID.{{personno}}</div>
+                </div>
+                <div class="em-word">有效期倒计时</div>
+                <div class="em-time">
+                  <span class="em-time-h"></span>
+                  小时
+                  <span class="em-time-m"></span>
+                  分
+                  <span class="em-time-s"></span>
+                  秒
+                </div>
+                <div class="em-line2"></div>
+                <div class="em-list-div">
+                  <div class="em-list">
+                    <div class="em-left">用餐人数</div>
+                    <div class="em-right red">
+                      <span class="fz28">{{dinernum}}</span>人
+                    </div>
+                  </div>
+                  <div class="em-list">
+                    <div class="em-left">实付金额</div>
+                    <div class="em-right red">
+                      <span class="fz28">{{count}}</span>元
+                    </div>
+                  </div>
+                  <div class="em-list">
+                    <div class="em-left">用餐食堂</div>
+                    <div class="em-right">{{canteenname}}</div>
+                  </div>
+                </div>
+              </div>
+              <!-- 虚线 -->
+              <div class="em-line-div">
+                <div class="em-line"></div>
+              </div>
+              <div class="em-tips">
+                <div>温馨提示</div>
+                <div>①本凭证仅当日有效</div>
+		        <div>②一天只能生成一张午餐凭证</div>
+	        	<div>③午餐食堂开放时间：10:30~13:00。</div>
+              </div>
+            </div>
+          </div>
+    </script>
+    <script>
+      document.write(
+        "<script src='../../js/jsboot.js?" + Math.random() + "'></scr" + "ipt>"
+      );
+    </script>
+    <script>
+      SrcBoot.output(["./js/account_proof.js"]);
+    </script>
+  </body>
+</html>

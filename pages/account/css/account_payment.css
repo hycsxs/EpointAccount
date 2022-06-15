@@ -1,0 +1,172 @@
+/**
+ * 作者： 钱愉
+ * 时间： 2021-5-25 10:09:34
+ * 版本： [1.0  2022-5-25]
+ * 版权： 国泰新点软件有限公司
+ * 描述： 支付页面
+ */
+/* 整体样式 */
+body,
+html {
+    background: linear-gradient(0deg, #4B92FC, #216EE1);
+}
+.mui-content {
+    background: linear-gradient(0deg, #4B92FC, #216EE1);
+    height: 100vh;
+    padding: 20px;
+}
+.em-content{
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+}
+.em-content-before{
+    background-color: #6ba1f3;
+    height: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: calc(100% - 30px);
+    margin: auto;
+}
+/* 顶部 */
+.em-top{
+    background: url('../img/img_payment.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: #fff;
+    height: 110px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.em-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.em-middle{
+    background-color: #f1f7ff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.em-list{
+    display: flex;
+    justify-content:space-between;
+    line-height: 45px;
+    font-weight: 500px;
+    vertical-align: middle;
+}
+.em-left{
+    width: 120px;
+}
+.em-right{
+    width: calc(100% - 140px);
+    text-align: right;
+    
+}
+.em-input-div input{
+    display: inline;
+    width: 40px;
+    height: 32px;
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    border-color: #dde0e4;
+    margin-bottom: 0;
+}
+.em-input-div .em-sub{
+    border-top-left-radius: 50%!important;
+    border-bottom-left-radius: 50%!important;
+    border-right: 0!important;
+    width: 30px;
+}
+.em-input-div .em-plus{
+    border-top-right-radius: 50%!important;
+    border-bottom-right-radius: 50%!important;
+    border-left: 0!important;
+    width: 30px;
+}
+.em-blue{
+    color:#2e6be5;
+}
+.em-amount{
+    font-size: 28px;
+    font-weight: 500;
+}
+.em-right-icon{
+    padding-top: 3px;
+}
+.em-right-icon img{
+    width: 17px;
+    height: 17px;
+}
+.em-canteen-name{
+    display: block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+/* 确认支付按钮 */
+.em-pay-button{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50px;
+    background-color: #2e6be5;
+    text-align: center;
+    color: #fff;
+    margin-top:20px;
+}
+
+/* 虚线 */
+.em-line-div{
+    width: 100%;
+    height: 24px;
+    background: #58a;
+    background: radial-gradient(circle at 0 50%, transparent 8px, white 8px) top left,
+                radial-gradient(circle at 100% 50%, transparent 8px, white 8px) right top;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.em-line{
+    height: 12px;
+    border-bottom: 1px dashed #d6dce5;
+    width: calc(100% - 30px);
+    margin: auto;
+}
+
+/* 提示 */
+.em-tips {
+    padding: 5px 20px 20px 20px;
+    background:#fff;
+    font-size: 13px;
+    color: #de974a;
+    line-height: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.em-goproof{
+	color:#666;
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+}
+.em-arrow-right {
+    width: 7px;
+    height: 12px;
+    margin-left: 5px;
+    content: url('../img/img-right.png');
+}
+.em-num{
+	font-size:28px;
+}
+.em-supplycount{
+	font-size:28px;
+}

@@ -1,0 +1,97 @@
+<!--
+ * @作者: 钱愉
+ * @创建时间: 2022-04-11 11:05:00
+ * @修改时间: 2022-04-25 15:28:48
+ * @版本: [1.0]
+ * @版权: 国泰新点软件股份有限公司
+ * @描述: 午餐/晚餐支付
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,viewport-fit=cover" name="viewport" />
+		<!-- IOS中禁用将数字识别为电话号码/忽略Android平台中对邮箱地址的识别 -->
+		<meta name="format-detection" content="telephone=no, email=no" />
+
+		<script>
+			document.write("<script src='../../js/cssboot.js?" + Math.random() + "'></scr" + "ipt>");
+		</script>
+
+		<script>
+			SrcBoot.output([
+				'./css/account_payment.css'
+			]);
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-content mui-hidden">
+			<div class="em-content-before"></div>
+			<div class="em-content">
+				<div class="em-top">
+					<div class="em-title"></div>
+					<div class="em-name">
+						<span class="em-username"></span>&nbsp;&nbsp;
+						<span class="em-personno"></span>
+					</div>
+				</div>
+				<div class="em-middle">
+					<div class="em-list">
+						<div class="em-left">用餐人数</div>
+						<div class="em-right em-input-div">
+							<span class="em-num">1</span>人
+							<!--<input class="em-input em-sub" type="text" value="-" readonly><input class="em-input em-num" type="number" pattern="[0-9]*" value="1" readonly><input class="em-input em-plus" type="text" value="+" readonly >-->
+						</div>
+					</div>
+					<div class="em-list">
+						<div class="em-left">实付金额</div>
+						<div class="em-right">
+							<span class="em-amount"></span>元
+						</div>
+					</div>
+					<div class="em-list">
+						<div class="em-left">用餐食堂</div>
+						<div class="em-right em-choosecanteen em-blue">
+							<span class="em-canteen-name"></span>
+						</div>
+						<div class="em-right-icon"><img src="./img/img_right_icon.png" alt=""></div>
+					</div>
+					<div class="em-list em-supplycount-div mui-hidden">
+						<div class="em-left">剩余午餐份数</div>
+						<div class="em-right">
+							<span class="em-supplycount"></span>份
+						</div>
+					</div>
+				</div>
+				<div class="em-pay-button">确认支付</div>
+				<div class="em-goproof">已有凭证？点此进入凭证页面 <img class="em-arrow-right"></div>
+			</div>
+			<!-- 虚线 -->
+			<div class="em-line-div">
+				<div class="em-line"></div>
+			</div>
+			<div class="em-tips"> 
+				<div>温馨提示</div>
+				<div>①确认支付后，午餐福利将不退还</div>
+				<div>②如不在默认食堂用餐，请在支付前，及时变更用餐食堂</div>
+				<div>③在OA移动端-福利账户-账户首页，可更换默认用餐食堂。</div>
+			</div>
+			
+
+		<!--交易明细模板-->
+		<script type="text/template" id="template">
+			
+		</script>
+		<script>
+			document.write("<script src='../../js/jsboot.js?" + Math.random() + "'></scr" + "ipt>");
+		</script>
+		<script>
+			SrcBoot.output([
+				'./js/account_payment.js'
+			]);
+		</script>
+	</body>
+
+</html>

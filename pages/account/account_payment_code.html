@@ -1,0 +1,63 @@
+<!--
+ * @作者: 夏云涛
+ * @创建时间: 2021-05-26 15:00:08
+ * @修改时间: 2022-04-18 16:37:02
+ * @版本: [1.0]
+ * @版权: 国泰新点软件股份有限公司
+ * @描述: 
+-->
+<!--
+	作者： 夏云涛
+	修改时间：2021-5-25
+	版本： [1.0, 2021/5/25]
+	版权： 江苏国泰新点软件有限公司
+	描述： 付款码
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>付款码</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,viewport-fit=cover"
+		name="viewport" />
+	<!-- IOS中禁用将数字识别为电话号码/忽略Android平台中对邮箱地址的识别 -->
+	<meta name="format-detection" content="telephone=no, email=no" />
+
+	<script>
+		document.write("<script src='../../js/cssboot.js?" + Math.random() + "'></scr" + "ipt>");
+	</script>
+
+	<script>
+		SrcBoot.output([
+			'./css/account_payment_code.css'
+		]);
+	</script>
+</head>
+
+<body>
+	<div class="mui-content">
+		<van-loading type="spinner" color="#1989fa" />
+		<div class="em-code-content">
+			<svg id="barcode" class="em-barcode"></svg>
+			<div id="qrcode" class="common-flexcc"></div>
+			<!-- <div class="common-flexcc mui-hidden" id="refreshBtn">
+					<img class="em-refresh">
+					<div id="refreshCode">刷新付款码</div>
+				</div> -->
+		</div>
+		<div class="em-account-btn em-accountBtn" id="accountBtn">账户首页</div>
+		<div class="em-account-btn em-paymentBtn" id="paymentBtn">午餐支付</div>
+		<div class="em-account-btn em-proofBtn" id="proofBtn">今日凭证</div>
+	</div>
+	<script>
+		document.write("<script src='../../js/jsboot.js?" + Math.random() + "'></scr" + "ipt>");
+	</script>
+	<script>
+		SrcBoot.output([
+			'./js/account_payment_code.js'
+		]);
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!--
+ * @作者: 夏云涛
+ * @创建时间: 2021-05-24 15:23:01
+ * @修改时间: 2022-04-11 15:56:16
+ * @版本: [1.0]
+ * @版权: 国泰新点软件股份有限公司
+ * @描述: 福利账户
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>福利账户</title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,viewport-fit=cover" name="viewport" />
+		<!-- IOS中禁用将数字识别为电话号码/忽略Android平台中对邮箱地址的识别 -->
+		<meta name="format-detection" content="telephone=no, email=no" />
+
+		<script>
+			document.write("<script src='../../js/cssboot.js?" + Math.random() + "'></scr" + "ipt>");
+		</script>
+
+		<script>
+			SrcBoot.output([
+				'./css/account_index.css'
+			]);
+		</script>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="em-account-card" id="myAccount">
+
+			</div>
+			<div class="em-tips mui-hidden">
+				<div>温馨提示</div>
+				<div>①退款请至PC->福利账户->我的福利账户</div>
+				<div>②可进入财务管理->退款管理->退款申请中查看退款进度或发起退款</div>
+				<div>③可退金额仅包含现金部分</div>
+				<div>④已冻结金额无法进行消费</div>
+				<div>⑤退款金额于审批流程完成后3个工作日内到账</div>
+				<div>如有疑问，请咨询行政部-赵健或行政部-周敏</div>
+			</div>
+		</div>
+
+		<!--账户模版模板-->
+		<script type="text/template" id="template-account">
+			<div class="em-account">
+				<div class="common-flexb">
+					<div>可用余额(元)</div>
+					<div class="common-flexc" id="accountDetails">
+						<div>交易明细</div>
+						<img class="em-arrow-right">
+					</div>
+				</div>
+				<div class="common-flexb">
+					<div class="em-account-amount">{{ availablebalance }}</div>
+					<div class="common-flexc" id="accountCanteen">
+						<div>食堂设置</div>
+						<img class="em-arrow-right">
+					</div>
+				</div>
+				
+			</div>
+			<div class="em-account-detail">
+				<div class="common-flex">
+					<div class="common-flex1">
+						<div class="em-account-tip">补贴余额(元)</div>
+						<div class="em-account-remain">{{ subsidybalance }}</div>
+					</div>
+					<div class="em-line"></div>
+					<div class="common-flex2 common-flexb-end">
+						<div class="common-flex1">
+							<div class="em-account-tip">现金余额(元)</div>
+							<div class="em-account-remain">{{ cashbalance }}</div>
+						</div>
+						<div class="em-frozen common-flex1 common-flexcc">
+							<div>冻结</div>
+							<span class="em-frozen-remain">{{ freezeBalance }}</span>
+						</div>
+					</div>
+				</div>
+				<div class="em-qrcode-btn common-flexcc" id="openQRcode">
+					<img class="em-qrcode">
+					<div>打开付款码</div>
+				</div>
+			</div>
+		</script>
+		<script>
+			document.write("<script src='../../js/jsboot.js?" + Math.random() + "'></scr" + "ipt>");
+		</script>
+		<script>
+			SrcBoot.output([
+				'./js/account_index.js'
+			]);
+		</script>
+	</body>
+
+</html>

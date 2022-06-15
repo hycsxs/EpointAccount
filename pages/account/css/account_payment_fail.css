@@ -1,0 +1,45 @@
+/**
+ * 作者： 钱愉
+ * 时间： 2021-5-25 10:09:34
+ * 版本： [1.0  2022-5-25]
+ * 版权： 国泰新点软件有限公司
+ * 描述： 食堂暂未开放
+ */
+/* 整体样式 */
+.mui-content {
+    padding-top: 65px;
+    background-color: #fff;
+    height: 100vh;
+    text-align: center;
+}
+
+.em-nocanteen-icon {
+    width: 140px;
+    height: 140px;
+    content: url('../img/img_nocanteen.png');
+    margin-bottom: 12px;
+}
+.em-fail-icon {
+    width: 140px;
+    height: 140px;
+    content: url('../img/img_pay_fail.png');
+    margin-bottom: 12px;
+}
+
+.em-amount {
+    font-size: 21px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+.em-return{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+}
+.em-blue{
+    color:#2e6be5;
+}

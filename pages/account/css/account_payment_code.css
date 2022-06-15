@@ -1,0 +1,130 @@
+/**
+ * 作者： 夏云涛
+ * 时间： 2021-5-25 10:09:34
+ * 版本： [1.0  2022-5-25]
+ * 版权： 江苏国泰新点软件有限公司
+ * 描述： 付款码
+ */
+
+/* 通用flex布局样式 */
+.common-flexcc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-mb50 {
+    margin-bottom: 50px;
+}
+
+/* 整体样式 */
+body,
+html {
+    background: linear-gradient(0deg, #4B92FC, #216EE1);
+}
+.mui-content {
+    padding: 26px 12px 20px;
+    background: linear-gradient(0deg, #4B92FC, #216EE1);
+    height: 100vh;
+}
+
+.em-code-content {
+    font-size: 15px;
+    line-height: 15px;
+    color: #3c80e6;
+    height: 100%;
+    border-radius: 8px;
+    padding-top: 46px;
+    background-color: #fff;
+}
+
+.em-barcode {
+    display: block;
+    margin: 0 auto;
+    /*margin-bottom: 50px;*/
+}
+
+.em-refresh {
+    width: 16px;
+    height: 15px;
+    margin-right: 5px;
+    content: url('../img/img_refresh.png');
+}
+/* 右上角按钮 */
+.em-account-btn {
+    position: fixed;
+    right: 0;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 4px 0 0 4px;
+    padding: 6px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    background-color: #36b389;
+}
+/* 账户首页 */
+.em-accountBtn{
+    top: 35px;
+}
+/* 餐食支付 */
+.em-paymentBtn{
+    top: 80px;
+}
+/* 今日凭证 */
+.em-proofBtn{
+    top: 125px;
+}
+/*----------------mui.showLoading---------------*/  
+.mui-show-loading {  
+    position: fixed;  
+    padding: 5px;  
+    width: 120px;  
+    min-height: 120px;  
+    top: 45%;  
+    left: 50%;  
+    margin-left: -60px;  
+    background: rgba(0, 0, 0, 0.6);  
+    text-align: center;  
+    border-radius: 5px;  
+    color: #FFFFFF;  
+    visibility: hidden;  
+    margin: 0;  
+    z-index: 2000;  
+
+    -webkit-transition-duration: .2s;  
+    transition-duration: .2s;  
+    opacity: 0;  
+    -webkit-transform: scale(0.9) translate(-50%, -50%);  
+    transform: scale(0.9) translate(-50%, -50%);  
+    -webkit-transform-origin: 0 0;  
+    transform-origin: 0 0;  
+}  
+.mui-show-loading.loading-visible {  
+    opacity: 1;  
+    visibility: visible;  
+    -webkit-transform: scale(1) translate(-50%, -50%);  
+    transform: scale(1) translate(-50%, -50%);  
+}  
+.mui-show-loading .mui-spinner{  
+    margin-top: 24px;  
+    width: 36px;  
+    height: 36px;  
+}  
+.mui-show-loading .text {  
+    line-height: 1.6;  
+    font-family: -apple-system-font,"Helvetica Neue",sans-serif;  
+    font-size: 14px;  
+    margin: 10px 0 0;  
+    color: #fff;  
+}  
+
+.mui-show-loading-mask {  
+  position: fixed;  
+  z-index: 1000;  
+  top: 0;  
+  right: 0;  
+  left: 0;  
+  bottom: 0;  
+}  
+.mui-show-loading-mask-hidden{  
+    display: none !important;  
+}

@@ -1,0 +1,160 @@
+/**
+ * 作者： 钱愉
+ * 时间： 2021-5-25 10:09:34
+ * 版本： [1.0  2022-5-25]
+ * 版权： 国泰新点软件有限公司
+ * 描述： 凭证
+ */
+ body,
+html {
+    background: linear-gradient(0deg, #4B92FC, #216EE1);
+}
+.mui-content {
+    background: linear-gradient(0deg, #4B92FC, #216EE1);
+    height: 100vh;
+}
+.em-content{
+    background-color: #fff;
+    padding: 15px;
+}
+.em-swiper-item{
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+/* 顶部样式 */
+.em-top-div{
+    height: 15px;
+    background-color: #629cf2;
+    width: 100%;
+    width: 104%;
+    margin-left: -2%;
+    border-radius: 10px;
+}
+.em-top-line{
+    margin-top: -7.5px;
+    background: url('../img/img_proof_top.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    height: 20px;
+}
+
+.em-card{
+    background: url('../img/img_proof.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 8px;
+     padding: 20px 20px 15px 20px;
+    color: #fff;
+    height: 120px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 18%;
+}
+.em-title{
+    font-size: 22px;
+    font-weight:700;
+}
+.em-name{
+	font-size: 19px;
+    font-weight:500;
+    white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.em-id{
+	font-size: 16px;
+	text-align: right;
+}
+.em-line-div{
+    background-color: #fff;
+    height: 100px;
+    border-top-left-radius: -50px;
+}
+
+
+/* 倒计时样式 */
+.em-word{
+    font-size:16px;
+    color:#de974a;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.em-time{
+    text-align: center;
+    color:#2e6be5;
+    font-weight: 500;
+    line-height: 50px;
+    font-size: 17px; 
+    height: 50px;
+}
+.em-time>span{
+    display: inline-block;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #dbe6ff;
+    border-radius: 5px;
+    font-size: 29px;
+    color:red;
+}
+
+
+/* 虚线 */
+.em-line-div{
+    width: 100%;
+    height: 24px;
+    background: #58a;
+    background: radial-gradient(circle at 0 50%, transparent 8px, white 8px) top left,
+                radial-gradient(circle at 100% 50%, transparent 8px, white 8px) right top;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.em-line{
+    height: 12px;
+    border-bottom: 1px dashed #d6dce5;
+    width: calc(100% - 30px);
+    margin: auto;
+}
+.em-line2{
+    height: 12px;
+    border-bottom: 1px dashed #d6dce5;
+    width: 100%;
+    margin: auto;
+}
+.em-list-div{
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.em-list{
+    display: flex;
+    justify-content:space-between;
+    line-height: 40px;
+    font-weight: 500px;
+    vertical-align: middle;
+}
+
+/* 提示 */
+.em-tips {
+    padding: 5px 20px 20px 20px;
+    background:#fff;
+    font-size: 13px;
+    color: #de974a;
+    line-height: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fz28{
+    font-size: 28px;
+}
+.red{
+    color:red
+}
+.fz19{
+    font-size: 19px;
+    font-weight: 400;
+}

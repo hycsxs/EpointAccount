@@ -1,0 +1,152 @@
+/**
+ * 作者： 夏云涛
+ * 时间： 2021-5-25 10:09:34
+ * 版本： [1.0  2022-5-25]
+ * 版权： 江苏国泰新点软件有限公司
+ * 描述： 福利账户
+ */
+
+/* 通用flex布局样式 */
+.common-flex {
+    display: flex;
+}
+
+.common-flexc {
+    display: flex;
+    align-items: center;
+}
+
+.common-flexcc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-flexb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.common-flexb-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.common-flex1 {
+    flex: 1;
+}
+
+.common-flex2 {
+    flex: 2;
+}
+
+.mui-content {
+    height: 100vh;
+    background-color: #fff;
+    padding: 12px 12px 0;
+}
+
+.em-account-card {
+    background: url('../img/img_card_bg.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.em-account {
+    padding: 32px 24px 22px;
+    font-size: 14px;
+    color: #f3f9ff;
+    line-height: 14px;
+    opacity: 0.9;
+}
+
+.em-arrow-right {
+    width: 7px;
+    height: 12px;
+    margin-left: 5px;
+    content: url('../img/img_arrow_right.png');
+}
+
+.em-account-amount {
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #fff;
+}
+
+.em-account-detail {
+    padding: 18px 24px 24px;
+    background-color: rgb(0 79 197 / 20%);
+    border-radius: 0 0 8px 8px;
+}
+
+.em-line {
+    width: 1px;
+    height: 44px;
+    margin-right: 10px;
+    background-color: #418aff;
+}
+
+.em-account-tip {
+    font-size: 12px;
+    color: #f3f9ff;
+    line-height: 12px;
+    opacity: 0.9;
+    margin-bottom: 12px;
+}
+
+.em-account-remain {
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.em-frozen {
+    position: relative;
+    bottom: -6px;
+    padding: 7px 0;
+    background-color: #246AD8;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F3F9FF;
+}
+
+.em-frozen-remain {
+    font-size: 16px;
+    color: #FFEE91;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.em-qrcode-btn {
+    margin-top: 23px;
+    padding: 15px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3c80e6;
+    line-height: 14px;
+}
+
+.em-qrcode {
+    width: 14px;
+    height: 14px;
+    content: url('../img/img_qrcode.png');
+    margin-right: 5px;
+}
+
+.em-tips {
+    padding: 16px 18px 20px;
+    font-size: 13px;
+    color: #de974a;
+    line-height: 22px;
+    background-color: #fffbf3;
+    border-radius: 8px;
+}

@@ -1,0 +1,49 @@
+/**
+ * 作者： 夏云涛
+ * 时间： 2021-5-25 10:09:34
+ * 版本： [1.0  2022-5-25]
+ * 版权： 江苏国泰新点软件有限公司
+ * 描述： 支付成功
+ */
+
+/* 整体样式 */
+.mui-content {
+    padding-top: 65px;
+    background-color: #fff;
+    height: 100vh;
+    text-align: center;
+}
+
+.em-success-icon {
+    width: 140px;
+    height: 140px;
+    content: url('../img/img_pay_success.png');
+    margin-bottom: 12px;
+}
+
+.em-tip {
+    font-size: 16px;
+    color: #333;
+    line-height: 16px;
+    margin-bottom: 35px;
+}
+
+.em-amount {
+    font-size: 28px;
+    color: #333;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+
+.em-return-btn,.em-pay-success {
+    width: 240px;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #3C80E6;
+    border-radius: 50px;
+}
